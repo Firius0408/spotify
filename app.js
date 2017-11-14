@@ -248,9 +248,6 @@ var optionsshort = {
   
 	}	
 
-app.get('/file/users.json', function(req, res) {
-	res.sendFile(__dirname + '/users.json');
-});
 	
 app.get('/login', function(req, res) {
 	
